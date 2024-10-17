@@ -1,0 +1,39 @@
+.hero {
+    height: 100vh;
+    background-image: url('https://propertyanalytics.com.au/wp-content/uploads/2024/07/contact-banner-1.jpg'); /* Add a relevant image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #00509e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #00274d;
+}
